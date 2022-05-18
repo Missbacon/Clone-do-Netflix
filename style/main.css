@@ -1,3 +1,6 @@
+
+
+
 :root{
     --vermelho: #e50914;
     --preta: #141414;
@@ -14,12 +17,13 @@ body{
     background: var(--preta);
     font-family: Arial;
     color: white;
+
 }
 
 
 header .container{
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     align-items: center;
     justify-content: space-between;
 }
@@ -29,12 +33,16 @@ header .logo{
     color: var(--vermelho);
     font-family: 'arial Black';
     font-size: 40px;
+    flex-direction: row;
 }
 
 header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    
+  
+   
 }
 
 
